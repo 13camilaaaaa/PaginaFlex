@@ -9,29 +9,24 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-header div {
+.nav{}
+
+.nav__container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    /*  */
-    /* width: 100%;
-    margin: 0 auto; */
 }
 
+.nav__figure{}
 
+.nav__logo{}
 
-nav {
-    height: var(--nav-heigth);
-}
+.nav__toggle{}
 
-.nav-content {
-    display: flex;
-    align-items: center;
-}
+.nav__imput{}
 
-.enlaces {
-    text-decoration: none;
-    color: inherit;
-    font-weight: 700;
-    margin-right: 1.25rem;
-}
+.nav__list{}
+
+.nav__item{}
+
+.nav__link{}

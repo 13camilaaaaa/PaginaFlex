@@ -6,27 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/IMG/favicon-2.png" type="image/png">
     <meta name="description" content="Lorem ipsum dolor sit, amet consectetur adipisicing elit.">
-    <title>Menú</title>
+    <title>Menú1</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <a href="">
-                <img src="../assets/IMG/logo.png" alt="logo"></a>
-            <nav class="nav-content">
-                <a href="#Inicio" class="enlaces">Inicio</a>
-                <a href="#Nosotros" class="enlaces">Nosotros</a>
-                <a href="#Servicios" class="enlaces">Servicios</a>
-                <a href="#Galeria" class="enlaces">Galeria</a>
-                <a href="#Contacto" class="enlaces">Contacto</a>
+            <nav class="nav">
+                <div class="nav__container">
+
+                    <!-- Logo -->
+                    <figure class="nav__figure">
+                        <img src="assets/IMG/logo.png" class="nav__logo" alt="logo"></a>
+                    </figure>
+
+                    <!-- Boton -->
+                    <label class="nav__toggle">
+                        <input type="checkbox" class="nav__imput">
+                    </label>
+
+                    <!-- Navegacion -->
+                    <ul class="nav__item">
+                        <li class="nav__item">
+                            <a href="#Inicio" class="nav__link">Inicio</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#Nosotros" class="nav__link">Nosotros</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#Servicios" class="nav__link">Servicios</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#Galeria" class="nav__link">Galeria</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#Contacto" class="nav__link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
     <main>
-        <section id="Inicio">
+        <!-- <section id="Inicio">
             <div class="container principal vh-100">
                 <div class="container-textos">
                     <h1 class="titulo">Bienvenidos al diseño web</h1>
@@ -125,9 +153,9 @@
                     </p>
                 </div>
                 <form class="Contacto">
-                    <div  class="form-group">
+                    <div class="form-group">
                         <label for="nombre">Nombre</label>
-                        <input  class="input" action="text" id="nombre"></input>
+                        <input class="input" action="text" id="nombre"></input>
                     </div>
                     <div class="form-group">
                         <label for="apellido">Apellido</label>
@@ -135,7 +163,7 @@
                     </div>
                     <div class="form-group">
                         <label for="telefono">Telefono</label>
-                        <input  class="input" type="text" id="telefono">
+                        <input class="input" type="text" id="telefono">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
@@ -143,12 +171,12 @@
                     </div>
                     <div class="form-group">
                         <label for="mensaje">Mensaje</label>
-                        <textarea  class="input" id="mensaje" cols="12" rows="12"></textarea>
+                        <textarea class="input" id="mensaje" cols="12" rows="12"></textarea>
                     </div>
                     <button class="cta" type="button">Enviar</button>
                 </form>
             </div>
-        </section>
+        </section> -->
     </main>
 </body>
 
