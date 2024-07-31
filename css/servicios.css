@@ -1,0 +1,42 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*  */
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card__item {
+    max-width: 350px;
+    width: 30%;
+    background-color: var(--white-color);
+    color: var(--second-color);
+    text-align: center;
+    padding: 2.5rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    /*  */
+    transition: background-color 0.3s ease;
+}
+
+.card__item--activo {
+    background-color: var(--main-color);
+}
+
+.card__plan {
+    color: var(--second-color);
+    margin-bottom: 1.25rem;
+
+}
+
+.card__precio {
+    font-size: 3rem;
+    color: var(--second-color);
+    margin-bottom: 1.25rem;
+}
+
+.card__caracteristica {
+    color: var(--second-color);
+    margin-bottom: 1.25rem;
+}

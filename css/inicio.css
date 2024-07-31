@@ -1,0 +1,56 @@
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /*  */
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+.container-textos {
+    flex-basis: 45%;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.copy {
+    margin: 1.25rem 0;
+    font-weight: 350;
+    font-size: 1.2rem;
+}
+
+.cta {
+    display: inline-block;
+    background-color: var(--main-color);
+    color: var(--second-color);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1rem 1.875rem;
+    border-radius: 30px;
+    /*  */
+    transition: background-color 0.3s ease;
+}
+
+/*  */
+.cta:hover {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+
+/*  */
+
+.cta--negro {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+
+/*  */
+.cta--negro:hover {
+    background-color: var(--main-color);
+    color: var(--second-color);
+}

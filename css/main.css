@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(variables.css);
+@import url(config.css);
+@import url(ayudas.css);
+@import url(header.css);
+@import url(inicio.css);
+@import url(nosotros.css);
+@import url(servicios.css);
+@import url(galeria.css);
+@import url(contacto.css);
+
+
+/* @media (max-width: 800px) {
+    .principal {
+        flex-direction: column;
+    }
+
+    .ilustracion {
+        order: 1;
+    }
+
+    .container-textos {
+        order: 2;
+    }
+} */
+
+
+
+
+
+
+/* --------------- MEDIA QUERIES ------------------ */
+
+@media (max-width: 600px) {
+    .principal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-textos {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card__item {
+        width: 100%;
+        max-width: none;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Contacto {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .principal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-textos {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card__item {
+        width: 45%;
+    }
+
+    .img {
+        width: 45%;
+        height: auto;
+    }
+
+    .Contacto {
+        width: 80%;
+    }
+}
+
+@media (min-width: 901px) {
+    .principal {
+        flex-direction: row;
+    }
+
+    .container-textos {
+        flex-basis: 45%;
+    }
+
+    .card__item {
+        width: 30%;
+    }
+
+    .img {
+        width: 30%;
+        height: 250px;
+    }
+
+    .Contacto {
+        width: 450px;
+    }
+}
