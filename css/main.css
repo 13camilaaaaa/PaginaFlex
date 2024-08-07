@@ -31,7 +31,7 @@
 
 /* --------------- MEDIA QUERIES ------------------ */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .principal {
         flex-direction: column;
         text-align: center;
@@ -104,4 +104,4 @@
     .Contacto {
         width: 450px;
     }
-}
+} */
