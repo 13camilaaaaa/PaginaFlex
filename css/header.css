@@ -15,6 +15,7 @@ header {
     justify-content: space-between;
     --transform-menu-show: translate(-100%);
     --icon-togle-menu: url(../assets/iconos/open.svg);
+    height: var(--nav-heigth);
 }
 
 .nav__container:has(.nav__imput:checked) {
