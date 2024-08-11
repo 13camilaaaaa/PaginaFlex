@@ -5,3 +5,32 @@
     /*  */
     padding: 2rem;
 }
+
+@media (max-width: 800px) {
+    .Nosotros {
+        flex-direction: column;
+    }
+
+    .Nosotros>img {
+        order: 1;
+    }
+
+    .container-textos {
+        order: 2;
+    }
+
+    .titulo {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .copy {
+        font-size: 0.87rem;
+    }
+
+    .ilustracion {
+        width: 70%;
+        margin: 0 auto;
+        /* border: 1px solid white; */
+    }
+}

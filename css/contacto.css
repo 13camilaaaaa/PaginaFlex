@@ -21,3 +21,35 @@
     outline: none;
     resize: none;
 }
+
+@media (max-width: 800px) {
+
+    .Contacto{
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .titulo {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .copy {
+        font-size: 0.87rem;
+    }
+
+    .form-group{
+        font-size: 0.87rem;
+    }
+
+    .input{
+        flex-direction: row-reverse;
+        margin:0 10% ;
+        position: relative;
+
+    }
+
+    .cta {
+        padding: 10px;
+    }
+}

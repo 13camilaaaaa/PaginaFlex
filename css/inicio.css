@@ -36,44 +36,26 @@
     transition: background-color 0.3s ease;
 }
 
-/*  */
-.cta:hover {
-    background-color: var(--second-color);
-    color: var(--white-color);
-}
-
-/*  */
-
-.cta--negro {
-    background-color: var(--second-color);
-    color: var(--white-color);
-}
-
-/*  */
-.cta--negro:hover {
-    background-color: var(--main-color);
-    color: var(--second-color);
-}
-
 @media (max-width: 800px) {
-    .principal, .nosotros{
+
+    .principal {
         flex-direction: column;
     }
 
-    .principal>img, .nosotros{
+    .principal>img {
         order: 1;
     }
 
-    .container-textos{
+    .container-textos {
         order: 2;
     }
 
     .titulo {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .copy {
-        font-size: 0.875rem;
+        font-size: 0.87rem;
     }
 
     .cta {
@@ -81,7 +63,7 @@
     }
 
     .ilustracion {
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
         /* border: 1px solid white; */
     }

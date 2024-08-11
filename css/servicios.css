@@ -9,7 +9,7 @@
 
 .card__item {
     max-width: 350px;
-    width: 30%;
+    width: 50%;
     background-color: var(--white-color);
     color: var(--second-color);
     text-align: center;
@@ -22,6 +22,21 @@
 
 .card__item--activo {
     background-color: var(--main-color);
+}
+
+.cta:hover {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+
+.cta--negro:hover {
+    background-color: var(--white-color);
+    color: var(--second-color);
+}
+
+.cta--negro {
+    background-color: var(--second-color);
+    color: var(--white-color);
 }
 
 .card__plan {
@@ -39,4 +54,45 @@
 .card__caracteristica {
     color: var(--second-color);
     margin-bottom: 1.25rem;
+}
+
+@media (max-width: 800px) {
+    .Servicios {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .titulo {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .copy {
+        font-size: 0.87rem;
+        margin: auto 15px;
+    }
+
+    .cards {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .card__plan {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .card__precio {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .card__caracteristica {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .cta {
+        padding: 10px;
+    }
 }
